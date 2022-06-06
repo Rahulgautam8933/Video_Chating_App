@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(93, 90, 146);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap-reverse; */
+
+}
+
+h3 {
+    display: flex;
+    width: 67%;
+    height: 77px;
+    border: 2px solid red;
+    margin: 0px -6px 43px 40px;
+    color: yellow;
+    background-color: black;
+    border-radius: 12px;
+    justify-content: center;
+    padding-top: 22px;
+    padding-left: 22px; 
+}
+.ourvideo {
+    border: 2px solid black;
+    width: 131px;
+    height: 97px;
+    margin: 0px 20px;
+    border-radius: 43px;
+    text-align: center;
+    margin: 0px 0px;
+    
+}

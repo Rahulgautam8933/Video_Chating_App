@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videochating app</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 775px)" href="css/phone.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="video1">
+            <div id="ourVideo">
+            </div>
+        </div>
+        <h3 id="show-peer"></h3>
+    </nav>
+    <section class="section1">
+        <div id="remoteVideo">
+        </div>
+    </section>
+    <div class="btn">
+        <input id="peerID" placeholder="peer ID">
+        <button id="call-peer">Call Peer</button>
+        <br>
+        <button id="shareScreen">Share Sreen</button>
+    </div>
+    <footer class="down">&#169 2022 Copyright:Exposys Data Lab </footer>
+</body>
+<script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+<script src="js/index.js"></script>
+</html>
